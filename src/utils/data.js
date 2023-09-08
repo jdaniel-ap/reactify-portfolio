@@ -1,5 +1,5 @@
 export const data = {
-  name: "JDaniel",
+  name: "ReactifyPortfolio",
   city: "Recife",
   slogan: "I design and build apps, and everything that comes with it.",
   avatar: "https://avatars.githubusercontent.com/u/74429277?s=96&v=4",
