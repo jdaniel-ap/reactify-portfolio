@@ -1,4 +1,5 @@
-# <img width="902" alt="image" src="https://github.com/jdaniel-ap/react-portfolio/assets/74429277/8208af1b-396e-4663-9b6c-ad4fe3becf68">
+# <img width="904" alt="image" src="https://github.com/jdaniel-ap/reactify-portfolio/assets/74429277/c7942eef-e772-40e1-ac91-11c33bbf2563">
+
 
 # ReactifyPortfolio
 
@@ -108,11 +109,11 @@ By following these steps, you'll have a well-structured `data.js` file containin
 
 ### Hero
 
-<img width="1440" alt="image" src="https://github.com/jdaniel-ap/react-portfolio/assets/74429277/47b76148-a140-4f18-b78e-d3ed1431e532">
+<img width="1440" alt="image" src="https://github.com/jdaniel-ap/reactify-portfolio/assets/74429277/81d71657-7f36-458f-b2b8-2472c6302341">
 
 ### Projects grid
 
-<img width="1440" alt="image" src="https://github.com/jdaniel-ap/react-portfolio/assets/74429277/715cfa58-1fd7-4ae0-8b0d-f01727b5563d">
+<img width="1440" alt="image" src="https://github.com/jdaniel-ap/reactify-portfolio/assets/74429277/7d0e90c3-d513-46fa-acee-756df71c3269">
 
 ### Personal details
 
