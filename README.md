@@ -167,7 +167,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Team
 
-| [![Jose Arreaza](https://avatars1.githubusercontent.com/u/74429277?v=3&s=100)](https://github.com/jdaniel-ap)
+[![Jose Arreaza](https://avatars1.githubusercontent.com/u/74429277?v=3&s=100)](https://github.com/jdaniel-ap)
 
 ## [License]()
 
