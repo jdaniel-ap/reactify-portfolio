@@ -42,11 +42,11 @@ In the `socialMedia` array, add your social media profiles.
 
 Provide the `name` (e.g., "twitter," "facebook").
 
-If applicable, provide the `url` and `background` color for each profile.
+If applicable, provide the `url` and `background` color for each profile. Feel free to add logos for each socialMedia if desired.
 
 #### Step 5: List Your Tools and Technologies
 
-Update the `tools` array with the tools and technologies you are familiar with or have experience using.
+Update the `tools` array with the tools and technologies you are familiar with or have experience using. Feel free to add logos for each tool if desired.
 
 #### Step 6: Provide Your Details
 
