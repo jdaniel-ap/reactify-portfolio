@@ -56,8 +56,6 @@ function Home() {
     };
   }, []);
 
-  console.log("render");
-
   return (
     <Container>
       <Hero>
