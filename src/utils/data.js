@@ -1,7 +1,8 @@
 export const data = {
   name: "ReactifyPortfolio",
   city: "Recife",
-  slogan: "I design and build apps, and everything that comes with it.",
+  slogan:
+    "In the project directory, navigate to /src/utils/data.\nOpen the data.js file to edit this template.",
   avatar: "https://avatars.githubusercontent.com/u/74429277?s=96&v=4",
   logosGridSize: 17,
   logosHeroSize: 25,
