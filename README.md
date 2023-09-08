@@ -12,7 +12,7 @@
 
 ## Demo
 
-Here is a working live demo : https://jadev.netlify.app/
+Here is a working live demo : https://reactify-portfolio.netlify.app/
 
 ## How to use
 
@@ -134,8 +134,7 @@ The WebApp is compatible with devices of all sizes and all OS's, and consistent 
 
 <img width="1440" alt="image" src="https://github.com/jdaniel-ap/react-portfolio/assets/74429277/9eba73eb-7041-4c5f-843e-c1e2f4f5c33a">
 
-## [Usage](https://jadev.netlify.app/)
-
+## [Usage](https://reactify-portfolio.netlify.app/)
 ### Development
 
 Want to contribute? Great!
