@@ -17,6 +17,7 @@ import {
   Logo,
   ProductHero,
   Box,
+  Link,
 } from "./styles";
 import Footer from "../../components/Footer";
 
@@ -102,7 +103,13 @@ function Project() {
         <Logo src={project?.image} alt={project?.title} />
       </ProductHero>
       <Box>
-        <Flex margin="3rem 0 0" gap="3" wrap="wrap">
+        <Flex
+          direction="column"
+          align="start"
+          margin="3rem 0 0"
+          gap="3"
+          wrap="wrap"
+        >
           {project?.details &&
             Object.keys(project?.details).map((section, index) => (
               <motion.div
@@ -133,8 +140,23 @@ function Project() {
                 </DescriptionBox>
               </motion.div>
             ))}
+          <Flex gap="1">
+            {project?.links &&
+              Object.entries(project.links).map(([field, url]) => (
+                <Link href={url} target="_blank" rel="noopener noreferrer">
+                  <Text
+                    size="rg"
+                    weight="500"
+                    align="center"
+                    color={colors.gray}
+                  >
+                    {field}
+                  </Text>
+                </Link>
+              ))}
+          </Flex>
           {project?.assets?.length && (
-            <Text size="rg" weight="500" align="center" color={colors.gray}>
+            <Text size="rg" weight="500" align="center" color="500">
               Gallery
             </Text>
           )}

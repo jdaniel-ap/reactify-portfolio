@@ -98,7 +98,7 @@ export const data = {
       },
     },
     {
-      id: "PinPoint-front",
+      id: "pinPoint-front",
       title: "PinPoint",
       subtitle: "Study and organize in one place",
       image: "/images/logos/projects/2.svg",
@@ -122,7 +122,7 @@ export const data = {
       ],
     },
     {
-      id: "digital-republic",
+      id: "border",
       title: "Border",
       image: "/images/logos/projects/3.svg",
       color: "#F05A22",
@@ -137,7 +137,7 @@ export const data = {
       },
     },
     {
-      id: "Clues-hackathon",
+      id: "clues-hackathon",
       title: "Clues",
       subtitle: "Streamlining pet care",
       image: "/images/logos/projects/5.svg",
@@ -165,7 +165,7 @@ export const data = {
       ],
     },
     {
-      id: "cerca-de-mi",
+      id: "leafe",
       title: "Leafe",
       subtitle: "Manage your appointments",
       image: "/images/logos/projects/4.svg",
@@ -196,6 +196,10 @@ export const data = {
           "We harnessed two essential tools, Flutter and Firebase, in the creation of this platform. Flutter, a versatile and powerful framework, provided the foundation for building a dynamic and responsive user interface, offering a seamless experience for both medical professionals and patients. Meanwhile, Firebase played a pivotal role as the backend infrastructure, enabling secure data storage, efficient data retrieval, and real-time updates. This robust technology duo formed the backbone of our application, playing a critical role in bringing this essential tool to life for medical professionals.",
         "P.D":
           "This app is currently in the development process. Our team committed to creating a user-friendly, feature-rich application that will cater to the needs and exceed the expectations.\n\nDuring this development phase, we're actively refining the app's functionalities, design elements, and user interface. We're also rigorously testing the application to ensure it meets the highest standards of quality and performance.",
+      },
+      links: {
+        demo: "https://www.google.com",
+        repository: "https://www.google.com",
       },
       assets: [
         "/images/projects/upacient1.png",

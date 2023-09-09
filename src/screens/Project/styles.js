@@ -12,6 +12,12 @@ export const Container = styled.main`
   width: 100%;
 `;
 
+export const Link = styled.a`
+  color: var(--grey-300);
+  text-decoration: underline;
+  text-transform: capitalize;
+`;
+
 export const Card = styled.div`
   background-color: red;
   width: 100px;
