@@ -80,7 +80,7 @@ function Project() {
                 height={CARET_SIZE}
                 onClick={handleNavigator}
               />
-              <Text size="lg" weight="500" color="500">
+              <Text size="lg" weight="500" color="600">
                 {project?.title}
               </Text>
             </Flex>
@@ -127,7 +127,7 @@ function Project() {
                   }}
                 >
                   <Flex direction="column" gap="1">
-                    <Text size="rg" weight="500" color="500">
+                    <Text size="rg" weight="500" color="600">
                       {section.charAt(0).toUpperCase() +
                         section.slice(1, section.length)}
                     </Text>
@@ -142,14 +142,14 @@ function Project() {
             {project?.links &&
               Object.entries(project.links).map(([field, url]) => (
                 <Link href={url} target="_blank" rel="noopener noreferrer">
-                  <Text size="rg" weight="500" align="center" color="500">
+                  <Text size="rg" weight="500" align="center" color="600">
                     {field}
                   </Text>
                 </Link>
               ))}
           </Flex>
           {project?.assets?.length && (
-            <Text size="rg" weight="500" align="center" color="500">
+            <Text size="rg" weight="500" align="center" color="600">
               Gallery
             </Text>
           )}
