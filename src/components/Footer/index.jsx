@@ -12,12 +12,12 @@ function Footer() {
   return (
     <Container>
       <Flex align="center" gap="0.5">
-        <Text color="500" size="sm">
+        <Text color="600" size="sm">
           Made with
         </Text>
         <Heart weight="fill" fill="500" />
       </Flex>
-      <Text color="500" size="sm">
+      <Text color="600" size="sm">
         {city} {year}
       </Text>
     </Container>
