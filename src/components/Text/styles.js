@@ -14,12 +14,12 @@ export const Container = styled.p`
   ${({
     size = "rg",
     weight = "400",
-    color = "#444444",
+    color = "800",
     align = "left",
     height = "normal",
     family,
   }) => css`
-    color: ${color};
+    color: var(--grey-${color});
     font-size: ${sizes[size]}px;
     font-weight: ${weight};
     line-height: ${height};

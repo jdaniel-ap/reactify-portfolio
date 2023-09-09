@@ -8,7 +8,6 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import Flex from "../../components/Flex";
 import Text from "../../components/Text";
 import { data } from "../../utils/data";
-import { colors } from "../../utils/colors";
 import {
   Container,
   DescriptionBox,
@@ -79,10 +78,9 @@ function Project() {
                 className="pointer"
                 width={CARET_SIZE}
                 height={CARET_SIZE}
-                fill={colors.gray}
                 onClick={handleNavigator}
               />
-              <Text size="lg" weight="500" color={colors.gray}>
+              <Text size="lg" weight="500" color="500">
                 {project?.title}
               </Text>
             </Flex>
@@ -129,7 +127,7 @@ function Project() {
                   }}
                 >
                   <Flex direction="column" gap="1">
-                    <Text size="rg" weight="500" color={colors.gray}>
+                    <Text size="rg" weight="500" color="500">
                       {section.charAt(0).toUpperCase() +
                         section.slice(1, section.length)}
                     </Text>
@@ -144,12 +142,7 @@ function Project() {
             {project?.links &&
               Object.entries(project.links).map(([field, url]) => (
                 <Link href={url} target="_blank" rel="noopener noreferrer">
-                  <Text
-                    size="rg"
-                    weight="500"
-                    align="center"
-                    color={colors.gray}
-                  >
+                  <Text size="rg" weight="500" align="center" color="500">
                     {field}
                   </Text>
                 </Link>

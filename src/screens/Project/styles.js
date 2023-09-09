@@ -10,6 +10,10 @@ export const Container = styled.main`
   justify-content: flex-start;
   padding: 100px 50px 50px;
   width: 100%;
+
+  svg {
+    fill: var(--grey-500);
+  }
 `;
 
 export const Link = styled.a`

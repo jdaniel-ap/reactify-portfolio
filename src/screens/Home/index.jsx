@@ -20,7 +20,6 @@ import {
   TechCard,
 } from "./styles";
 import Footer from "../../components/Footer";
-import { colors } from "../../utils/colors";
 
 const TECH_ICON_SIZE = 35;
 
@@ -149,10 +148,10 @@ function Home() {
       {Object.keys(user.details).map((field, index) => (
         <Box key={index}>
           <Flex direction="column" gap="1" margin={index && "2rem 0 0"}>
-            <Text weight="500" size="md" color={colors.gray}>
+            <Text weight="500" size="md" color="500">
               {field.charAt(0).toUpperCase() + field.slice(1, field.length)}
             </Text>
-            <Text size="rg" height="2rem">
+            <Text size="rg" weight="300" height="2rem">
               {user.details[field]}
             </Text>
           </Flex>
@@ -160,7 +159,7 @@ function Home() {
       ))}
       <Box>
         <Flex direction="column" margin="2rem 0 0" gap="1">
-          <Text weight="400" size="rg" color={colors.gray}>
+          <Text weight="400" size="rg" color="500">
             I made apps with
           </Text>
           <Flex gap="1" wrap="wrap" margin="1rem 0 0">
